@@ -1,0 +1,11 @@
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).csproj.AssemblyReference.cache
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).csproj.SuggestedBindingRedirects.cache
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows_Forms_App__.NET_.Properties.Resources.resources
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).csproj.GenerateResource.cache
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).csproj.CoreCompileInputs.cache
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\bin\Debug\LabTextRedactorWindows Forms App (.NET).exe.config
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\bin\Debug\LabTextRedactorWindows Forms App (.NET).exe
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\bin\Debug\LabTextRedactorWindows Forms App (.NET).pdb
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindowsFormsApp.Form1.resources
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).exe
+C:\Users\nicki\source\repos\Kramov4KyrsLabi\LabTextRedactorWindows Forms App (.NET)\LabTextRedactorWindows Forms App (.NET)\obj\Debug\LabTextRedactorWindows Forms App (.NET).pdb
