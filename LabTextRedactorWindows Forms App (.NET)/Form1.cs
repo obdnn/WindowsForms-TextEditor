@@ -1,7 +1,6 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LabTextRedactorWindowsFormsApp
 {
@@ -27,7 +26,6 @@ namespace LabTextRedactorWindowsFormsApp
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
-
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 currentFilePath = openFileDialog.FileName;
@@ -43,17 +41,12 @@ namespace LabTextRedactorWindowsFormsApp
             {
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
-
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     currentFilePath = saveFileDialog.FileName;
                 }
-                else
-                {
-                    return;
-                }
+                else return;
             }
-
             File.WriteAllText(currentFilePath, textBox1.Text);
             this.Text = currentFilePath + " - Text Editor";
             MessageBox.Show("File saved successfully!");
@@ -63,6 +56,29 @@ namespace LabTextRedactorWindowsFormsApp
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        // FONT SETTINGS — открывает WPF-окно
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var currentFont = textBox1.Font.Name;
+            var currentSize = (double)textBox1.Font.Size;
+            var bold        = textBox1.Font.Bold;
+            var italic      = textBox1.Font.Italic;
+
+            var wpfWindow = new FontSettingsWindow(currentFont, currentSize, bold, italic);
+            if (wpfWindow.ShowDialog() == true)
+            {
+                var style = System.Drawing.FontStyle.Regular;
+                if (wpfWindow.IsBold)   style |= System.Drawing.FontStyle.Bold;
+                if (wpfWindow.IsItalic) style |= System.Drawing.FontStyle.Italic;
+
+                textBox1.Font = new System.Drawing.Font(
+                    wpfWindow.SelectedFont,
+                    (float)wpfWindow.SelectedSize,
+                    style
+                );
+            }
         }
     }
 }
